@@ -31,7 +31,7 @@ if(numero > 0){
      alert("El numero es 0");
 } */
 
-// ejercicio 3
+/* // ejercicio 3
 
 let puntuacion = 105;
     if (puntuacion >= 100) {
@@ -45,4 +45,4 @@ alert(`Tu saldo es de ${saldoCuenta}.`);
 
 //ejercicio 5 
 let nombre = prompt('Por favor, ingresa tu nombre');
-alert(`¡Bienvenido, ${nombre}!`);
+alert(`¡Bienvenido, ${nombre}!`); */
