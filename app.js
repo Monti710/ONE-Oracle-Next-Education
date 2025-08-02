@@ -33,11 +33,9 @@ function asignarTextoElemnto(elemento, texto){
 
 function GenerarNumeroSecreto(){
     let numeroSecretoGenerado = Math.floor(Math.random()*numeroMaximo)+1;
-    console.log(numeroSecretoGenerado);
-    console.log(listaNumerosSorteados);
     //Si ya sortteamos todos los números posibles
     if(listaNumerosSorteados.length === numeroMaximo){
-        listaNumerosSorteados.length = 0; //Limpiamos la lista de números sorteados}
+        listaNumerosSorteados.length = 0; //Limpiamos la lista de números sorteados
         return GenerarNumeroSecreto(); //Volvemos a generar un nuevo número
     }else{
         //Si el numero genereado esta en la lista
