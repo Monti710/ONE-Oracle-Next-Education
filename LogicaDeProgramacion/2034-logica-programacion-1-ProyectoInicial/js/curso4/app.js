@@ -2,7 +2,7 @@
 Visto en clase
 Primeros pasos en Js
 */
-/* let numeroMaximo = parseInt(prompt(`¿Cual es el número maximo del rango que quieres que sea?`)); */}
+/* let numeroMaximo = parseInt(prompt(`¿Cual es el número maximo del rango que quieres que sea?`)); */
 numeroMaximo = 50;
 let numeroSecreto = Math.floor(Math.random()*numeroMaximo +1);
 console.log(numeroSecreto);
